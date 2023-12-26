@@ -1,0 +1,74 @@
+.info-digimons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    justify-content: flex-start;
+    height: 20px;
+    margin: 0.3rem 0;
+}
+
+.HP, .ATK, .DEF {
+    display: flex;
+    align-items: center;
+    margin: 0.3rem 0;
+    justify-content: space-around;
+    font-weight: 400;
+    color: #fff;
+}
+
+/* BARRA */
+
+/* HP */
+
+.d-hp__ext{
+    position: relative;
+    background-color: #fff;
+    height: 25px;
+    width: 80%;
+    border-radius: 35px;
+}
+
+.d-hp__int{
+    position: absolute;
+    background-color: #808080;
+    height: 100%;
+    width: 0%;
+    border-radius: 35px;
+}
+
+/* ATK */
+
+.d-atk__ext{
+    position: relative;
+    background-color: #fff;
+    height: 25px;
+    width: 80%;
+    border-radius: 35px;
+}
+
+.d-atk__int{
+    position: absolute;
+    background-color: #808080;
+    height: 100%;
+    width: 0%;
+    border-radius: 35px;
+}
+
+/* DEF */
+
+.d-def__ext{
+    position: relative;
+    background-color: #fff;
+    height: 25px;
+    width: 80%;
+    border-radius: 35px;
+}
+
+.d-def__int{
+    position: absolute;
+    background-color: #808080;
+    height: 100%;
+    width: 0%;
+    border-radius: 35px;
+}
